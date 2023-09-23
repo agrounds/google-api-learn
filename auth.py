@@ -11,7 +11,7 @@ SCOPES = ['https://www.googleapis.com/auth/photoslibrary.readonly']
 def main():
   creds = None
   if os.path.exists('creds/token.json'):
-    creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+    creds = Credentials.from_authorized_user_file('creds/token.json', SCOPES)
   if not creds or not creds.valid:
     if creds and creds.expired and creds.refresh_token:
       creds.refresh(Request())
