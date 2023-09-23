@@ -5,7 +5,7 @@ This is a project I created while learning how to use Google's API
 ## Setup
 
 1. Create a project in Google Cloud
-2. In that project, credentials that are permitted to access the Photos Library API
+2. In that project, create credentials that are permitted to access the Photos Library API
 3. Allow redirect URL of `http://localhost:5500/`
 4. Set up your python environment as you desire and `pip install -r requirements.txt`
 
